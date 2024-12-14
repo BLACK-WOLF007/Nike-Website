@@ -1,0 +1,777 @@
+*{
+    margin: 0px;
+	padding: 0px;	
+}
+
+:root{
+    --black: #000000;
+    --white: #ffffff;
+	--darkgray:#181616;
+	--darkyellow:#ffce1b;
+	--red: #d92121;
+	--lightgray: #f5f5f5;
+	--lightyellow:#EEA531;
+	--gray:gray;
+	--gold:gold;
+	--redpink:#f23c3b;
+	--blackgray:#646364;
+	--icongray:#939596;
+	--darkred:red;
+	--babyred:#f23c3a;
+	--whatsappgreen:#5cf878;
+}
+
+
+::selection{
+
+background:var(--red);
+color:var(--white);
+}
+
+::-webkit-scrollbar{
+	width: 16px;
+  }
+  ::-webkit-scrollbar-track{
+	  background:var(--black);
+	  border-radius: 16px;
+	}
+	::-webkit-scrollbar-thumb{
+		background:var(--redpink);
+   border-radius: 16px;
+  }
+
+#loading{
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	background: #ffffff url('Ripple-2.4s-200px.gif') no-repeat center;
+	z-index: 9999;
+}
+
+.hero-section{
+	width:100%;
+	height:1000px;
+    cursor:url('cursor-removebg-preview.png'), auto;
+	color:var(--white);
+	position:relative;
+	z-index:50;
+	margin-top:-640px;
+}
+
+.nav ul li{
+	color:var(--white);
+	display:inline;
+	padding-left:10px;
+	font-family: 'Poppins', sans-serif;
+	text-transform:uppercase;
+}
+
+.nav ul li a{
+	color:var(--white);
+	text-decoration:none;
+	font-weight:bolder;
+}
+
+.nav ul li a:hover{
+	color:var(--white);
+	text-decoration:underline;
+	font-weight:bolder;
+}
+
+.nav{
+	padding-top:20px;
+}
+
+.heading{
+	margin-top:100px;
+	margin-left:50px;
+}
+
+.heading h1{
+	font-size:110px;
+	text-transform:uppercase;
+	font-family: 'Kanit', sans-serif;
+	line-height:100px;
+	width:50px;
+}
+
+.heading p{
+	width:300px;
+	font-size:12px;
+	color:var(--white);
+	padding-top:20px;
+}
+
+.shoes img{
+	margin-top:-600px;
+	margin-left:200px;
+	width:77%;
+	-webkit-box-reflect: below -320px linear-gradient( rgba(0,0,0,0.0), rgba(0,0,0,0.2));
+	animation:move 5s infinite;
+	position:absolute;
+	z-index:120px;
+	transition:0.1s ease-in-out;
+	transform: rotate(20deg);
+}
+
+@keyframes move {
+  0% {top:0px;}
+  50% {top:-25px;}
+  100% {top:25px;}
+}
+
+.whatsapp{
+	width:70px;
+	height:70px;
+	border-radius:50px;
+	background-color:var(--whatsappgreen);
+	margin-left:150px;
+	position:fixed;
+	z-index:200;
+}
+
+.nike h1{
+	font-size:150px;
+	
+	margin-top:-700px;
+	margin-left:-100px;
+	font-weight:bolder;
+	color:transparent;
+/* -webkit-text-stroke:1px #fff; */
+
+background-image: linear-gradient(344deg, rgba(255,255,255,0.41780462184873945) 0%, rgba(255,255,255,0.5410539215686274) 51%, rgba(255,254,254,1) 97%);
+
+background-repeat:no-repeat;
+-webkit-background-clip:text;
+
+}
+
+
+.text2{
+	margin-top:250px;
+	margin-left:1050px;
+	position:relative;
+	z-index:500px;
+	
+}
+
+.text2 h4{
+	font-size:35px;
+	color:var(--red);
+	font-family: 'Anton', sans-serif;
+	font-weight:bolder;
+	letter-spacing:1px;
+		color:transparent;
+/* -webkit-text-stroke:1px #fff; */
+
+background-image: linear-gradient(344deg, rgba(217,33,33,0.6334908963585435) 0%, rgba(217,33,33,0.7707457983193278) 8%, rgba(255,254,254,0.6474964985994398) 97%);
+
+background-repeat:no-repeat;
+-webkit-background-clip:text;
+margin-left:-80px;
+position:relative;
+z-index:500;
+}
+
+.text2 h2{
+	font-size:70px;
+	margin-top:-20px;
+	margin-left:-80px;
+position:relative;
+z-index:500;
+	
+}
+
+
+.text2 button{
+	margin-top:-20px;
+	background-color:transparent;
+	border:2px solid var(--white);
+	border-radius:15px;
+	color:var(--white);
+	font-size:15px;
+	padding:10px;
+	width:100px;
+	font-weight:bold;
+	margin-left:-80px;
+position:relative;
+z-index:500;
+}
+
+.text2 button:hover{
+	background-color:var(--white);
+	color:var(--red);
+    transition:0.2s ease-in-out;
+	margin-top:-10px;
+	position:relative;
+	z-index:500;
+}
+
+
+
+.pro1{
+	width:300px;
+	background: rgba( 85, 83, 83, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.5px );
+-webkit-backdrop-filter: blur( 11.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+	height:100px; 
+	margin-top:200px;
+	margin-left:40px;
+	border-radius:20px;
+	color:var(--black);
+}
+
+.pro1 img{
+	
+	margin-left:-55px;
+}
+
+.pro1 h3{
+	color:var(--white);
+	margin-left:100px;
+	margin-top:-135px;
+}
+
+.pro1 p{
+	color:var(--white);
+	margin-left:100px;
+	font-size:10px;
+	margin-top:-8px;
+}
+
+.survay{
+	margin-top:100px;
+	margin-left:50px;
+}
+.number1{
+	float:left;
+	padding-left:80px;
+}
+.number1 span{
+	color:var(--red);
+	font-size:40px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.number1 p{
+	color:var(--white);
+	font-size:15px;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.offer1{
+	padding-top:20px;
+}
+
+.offer1 h1{
+	font-size:60px;
+	margin-top:150px;
+	text-align:center;
+	font-family: 'Poppins', sans-serif;
+	word-spacing:5px;
+}
+
+.offer1 h1 .text{
+	color:var(--red);
+	font-size:60px;
+	font-family: 'Poppins', sans-serif;
+	word-spacing:5px;
+	padding-left:20px;
+}
+
+.box1{
+	width:200px;
+	height:280px;
+	background-color:var(--white);
+	margin-top:50px;
+	margin-left:100px;
+	float:left;
+}
+
+.icon1{
+	width:120px;
+	height:120px;
+	border-radius:80px;
+	background-color:var(--lightgray);
+	margin-left:40px;
+	top:25px;
+	position:relative;
+	z-index:3;
+}
+
+.icon1 h3{
+	color:var(--lightyellow);
+	font-family: 'Poppins', sans-serif;
+	font-size:17px;
+	padding-left:10px;
+}
+
+
+.icon1 p{
+	color:var(--gray);
+	font-family: 'Poppins', sans-serif;
+	font-size:10px;
+	text-align:center;
+	
+}
+
+
+.collections{
+	margin-top:450px;
+	width:100%;
+	height:900px;
+	background-color:var(--black);
+}
+
+.collection-text{
+	top:50px;
+	position:relative;
+	z-index:3;
+	
+}
+
+.collection-text h1{
+	font-size:60px;
+	margin-top:150px;
+	text-align:center;
+	font-family: 'Poppins', sans-serif;
+	word-spacing:5px;
+	
+}
+
+.collection-text h1 .text{
+	color:var(--red);
+	font-size:60px;
+	font-family: 'Poppins', sans-serif;
+	word-spacing:5px;
+	padding-left:20px;
+	
+}
+
+.collection-nav ul li{
+	color:var(--white);
+	display:inline;
+	padding-left:160px;
+	font-family: 'Poppins', sans-serif;
+	text-transform:uppercase;
+}
+
+.collection-nav ul li button{
+	color:var(--white);
+	text-decoration:none;
+	font-weight:bolder;
+	border:none;
+}
+
+.collection-nav ul li button:hover{
+	color:var(--gold);
+	font-weight:bolder;
+}
+
+.collection-nav{
+	padding-top:100px;
+}
+
+.collection-nav button{
+	background-color:transparent;
+}
+
+.boot1{
+	width:250px;
+	height:200px;
+	background-color:rgba(255,255,255,0.9);
+	margin-top:70px;
+	margin-left:70px;
+	float:left;
+}
+
+.boot1 button{
+	width:55px;
+	height:20px;
+	background-color:var(--redpink);
+	border:none;
+	margin-top:20px;
+	margin-left:20px;
+	font-family: 'Poppins', sans-serif;
+	font-size:13px;
+	
+}
+
+.boot-nav ul li{
+	color:var(--black);
+	display:inline;
+	padding-left:10px;
+	font-family: 'Poppins', sans-serif;
+	text-transform:uppercase;
+	
+}
+
+.boot-nav ul li a{
+	color:var(--black);
+	text-decoration:none;
+    font-size:12px;
+	display:inline;
+	
+	
+}
+
+.boot-nav ul li a:hover{
+	color:var(--gold);
+	font-weight:bolder;
+}
+
+.boot-nav{
+	margin-top:-20px;
+	margin-left:100px;
+}
+
+.boot-nav span{
+	font-size:15px;
+	
+}
+
+.boot1 h5{
+	color:var(--black);
+	margin-top:-30px;
+	margin-left:100px;
+	font-family: 'Poppins', sans-serif;
+	font-weight:bold;
+	
+}
+
+.boot1 h4{
+	color:var(--white);
+	margin-top:20px;
+	margin-left:80px;
+	font-family: 'Poppins', sans-serif;
+	font-size:15px;
+	
+}
+
+.boot1:hover{
+	background-color:var(--blackgray);
+}
+
+.banner img{
+	width:100%;
+	margin-top:220px;
+	background-attachment:fixed;
+}
+
+.collection-head h1{
+	
+}
+
+/* ------testimonial  start-------*/
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+.snip1574 {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.snip1574 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.snip1574 img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.7;
+}
+
+.snip1574 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 80px 10% 15%;
+}
+
+.snip1574 figcaption:before {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 170px;
+  opacity: 0.35;
+  font-style: normal;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: 0px;
+  left: 50%;
+}
+
+.snip1574 blockquote {
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.snip1574 h3 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0;
+}
+
+.snip1574 h5 {
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #bbb;
+  letter-spacing: 1px;
+}
+
+.contact{
+	width:100%;
+	height:400px;
+	margin-top:-50px;
+	background-image: url("https://w0.peakpx.com/wallpaper/866/444/HD-wallpaper-person-wearing-white-nike-running-shoes-standing-on-black-concrete-path.jpg" );
+	background-color:rgba(255,255,255,0.5);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
+}
+
+
+
+.search{
+	margin-top:70px;
+	margin-left:300px;
+	position:relative;
+	z-index:20px;
+	color:var(--black);
+}
+
+
+input {
+	width:750px;
+	height:40px;
+	padding:15px;
+	outline:none;
+	border:none;
+	color:var(--black);
+	caret-color: var(--red);
+	border-radius:10px;
+	position:relative;
+	z-index:66;
+}
+
+
+input:focus {
+	outline:none;
+}
+
+.search-icon{
+	margin-top:-38px;
+	margin-left:800px;
+	font-size:13px;
+    position:relative;
+	z-index:66;
+	
+}
+
+.magnifying{
+	padding:7px;
+	margin-top:3px;
+	margin-left:200px;
+	background-color:var(--babyred);
+	color:white;
+	border:none;
+	border-radius:15px;
+	position:relative;
+	z-index:2px;
+	width:40px;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  font-family: 'Poppins', sans-serif;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+  font-family: 'Poppins', sans-serif;
+}
+.site-footer a:hover
+{
+  color:var(--red);
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:var(--red);
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+
+
+
+
